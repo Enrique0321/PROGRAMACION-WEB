@@ -58,7 +58,7 @@ body{
     display: flex;
 
     flex-direction: column;
-    /espacio de esquina a esquina/
+    /*espacio de esquina a esquina*/
     justify-content:space-between;
     align-items: center;
     font-size: 2rem;
@@ -79,4 +79,12 @@ body{
     background-color: var(--primario);
 }
 
- 
+ .hero{
+    background-image: url("../img/hero\ \(1\).jpg");
+    background: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+
+
+    
+ }
